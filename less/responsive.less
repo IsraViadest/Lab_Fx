@@ -1,0 +1,217 @@
+
+
+/* Standard Responsive CSS
+
+*/
+/* Prefix */
+/*  To make Responsive
+---------------------------------------------------------------------- /
+*	1 - @media (max-width: 1280px)
+*   2 - @media (max-width: 1200px)
+*   3 - @media (min-width: 992px) and (max-width: 1199px)
+*   4 - @media (min-width: 768px) and (max-width: 991px)
+*   5 - @media (max-width: 767px)
+*   6 - @media (max-width: 667px)
+*   7 - @media (max-width: 480px)
+*   8 - @media (max-width: 360px)
+*   9 - @media (max-width: 320px)
+*
+---------------------------------------------------------------------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
+ html {
+   -webkit-text-size-adjust: none;
+ }
+}
+/* Large Desktops */
+@media (max-width: 1280px) {
+    .article-post{
+        margin-right: 0px;
+    }
+}/* End 1280 */
+/* Laptops or Smaller Screens */
+@media (max-width: 1200px) {
+
+
+}
+@media (max-width: 1199px) {
+
+}
+
+
+
+/* Portrait tablets and medium desktops */
+@media (max-width: 1024px) {
+    .article-post{
+        img{
+            width: 100%;
+        }
+    }
+
+}
+@media (max-width: 1199px){
+
+}
+@media (max-width: 992px){
+
+}
+
+/* Portrait tablets and small desktops */
+@media (max-width: 768px) {
+    #contact-info{
+        padding-top: 180px;
+    }
+    .single-post-inner-content{
+        .single-content{
+            padding-left: 15px;
+        }
+    }
+    .ikrar-nav {
+        top: 0px;
+        ul {
+            li {
+                border-bottom: 1px solid #d3d3d3;
+                &:last-child{
+                    border-bottom: none;
+                }
+                a {
+
+                    span {
+                        &::before {
+                            top: 0%;
+                        }
+                    }
+                    &:hover,
+                    &:focus,
+                    &.active {
+                        span {
+                            color: #101010;
+                            font-weight: 400;
+                            transform: translateY(0%);
+                            -moz-transform: translateY(0%);
+                            -webkit-transform: translateY(0%);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .menuzord {
+        .showhide {
+            padding-top: 20px;
+            em {
+                background: #101010;
+            }
+        }
+    }
+    .single-post-content{
+        padding: 0px 0px;
+    }
+    .single-text-content {
+        padding-left: 0px;
+    }
+    .single-post-banner{
+        margin-bottom: 50px;
+    }
+}/* End 768 */
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .home-post{
+        text-align: center;
+        img{
+            margin: 0 auto;
+            width: 100%;
+        }
+    }
+    .article-post{
+        margin-right: 0px;
+    }
+    .footer{
+        text-align: center;
+        h3{
+            &:after{
+                left: 48%;
+            }
+        }
+    }
+    .gallery-img{
+        img{
+            margin-bottom: 15px;
+        }
+    }
+    .latest-post-text {
+        left: 0;
+        position: relative;
+        top: 8px;
+    }
+    .copyright{
+        margin-top: 15px;
+    }
+    .categories {
+        text-align: center;
+    }
+    .img-content {
+        img{
+            margin-bottom: 30px;
+            width: 100%;
+        }
+    }
+}/* End 767 */
+
+/* iPhone 6 & 6 Plus */
+@media (max-width: 667px) {
+    #slider{
+         .owl-next{
+             bottom: 0px;
+             right: 0px;
+             top: 43%;
+         }
+         .owl-prev{
+             bottom: 0px;
+             left: 0px;
+             top: 43%;
+         }
+    }
+    .slider-caption{
+        padding: 0 7%;
+        text-align: center;
+        top: 44%;
+        h2{
+            font-size: 22px;
+            line-height: 36px;
+        }
+    }
+
+}
+/* Phone Standard Width */
+@media (max-width: 480px) {
+
+}
+/* Extra smaller */
+@media (max-width: 360px) {
+    #slider{
+         .owl-next{
+            i{
+                font-size: 26px;
+            }
+         }
+         .owl-prev{
+             i{
+                 font-size: 26px;
+             }
+         }
+    }
+}
+/* iPhone 4s and Smaller Screen */
+@media (max-width: 320px) {
+/*  Portfolio
+---------------*/
+.slider-caption{
+    top: 48%;
+    h2{
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+}
